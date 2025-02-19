@@ -1,0 +1,83 @@
+{
+    "intents": [
+      {
+        "tag": "saudacao",
+        "patterns": [ "Olá",
+        "Oi",
+        "Bom dia",
+        "Boa tarde",
+        "Boa noite"],
+        "responses": [ "Olá! Como posso ajudar com o seu projeto PIPE hoje?",
+        "Oi! Em que posso te ajudar no processo de submissão do projeto PIPE?"]
+      },
+      {
+        "tag": "despedida",
+        "patterns": ["Tchau", "Obrigado", "Valeu", "Até mais", "Até logo", "Não"],
+        "responses": ["Até logo! Se precisar de mais informações, estou à disposição.", "Foi um prazer ajudar! Boa sorte com seu projeto.", "Tchau! Se tiver mais dúvidas, estarei por aqui."]
+      },
+      {
+        "tag": "info_pipe",
+        "patterns": ["O que é o programa PIPE?",
+        "Como funciona o PIPE da FAPESP?",
+        "Quais são as etapas do programa PIPE?"],
+        "responses": ["O PIPE (Pesquisa Inovativa em Pequenas Empresas) é um programa da FAPESP que apoia empresas e pesquisadores em projetos de inovação. Ele é dividido em três fases: Fase 1 - Pesquisa para desenvolvimento de uma inovação inicial; Fase 2 - Desenvolvimento de um protótipo; e Fase 3 - Pré-comercialização.",
+        "O programa PIPE tem como objetivo financiar a pesquisa e o desenvolvimento de inovações em pequenas empresas. Ele oferece apoio financeiro para transformar ideias em produtos inovadores."]
+      },
+      {
+        "tag": "submissao_requisitos",
+        "patterns": [ "Quais são os requisitos para submeter um projeto?",
+        "Como faço a inscrição no PIPE?",
+        "Quais documentos são necessários para a submissão?"],
+        "responses": [ "Para submeter um projeto ao PIPE, você precisará de um projeto detalhado, que inclua o problema de pesquisa, objetivos, metodologia e impacto esperado. Além disso, é necessário que a empresa seja uma pequena empresa ou que o pesquisador tenha vínculo com uma instituição de ensino ou pesquisa.",
+        "Você pode submeter o projeto diretamente no site da FAPESP. Certifique-se de preencher todos os campos e enviar a documentação exigida, como plano de trabalho, orçamento e dados sobre a empresa ou instituição de pesquisa."]
+      },
+      {
+        "tag": "prazos",
+        "patterns": [ "Quais são os prazos para submeter o projeto?",
+        "Quando posso enviar minha proposta?",
+        "Quais são as datas importantes para o PIPE?"],
+        "responses": [ "Os prazos de submissão para o PIPE variam de acordo com o edital. É importante verificar no site da FAPESP o calendário de submissões do programa. As datas são divulgadas anualmente.",
+        "As submissões de propostas são feitas de acordo com os editais anuais da FAPESP. Consulte sempre o site para confirmar os prazos específicos."]
+      },
+      {
+        "tag": "fases_pipe",
+        "patterns": ["Como funcionam as fases do PIPE?",
+        "Quais são as etapas do programa PIPE?",
+        "Pode me explicar as fases do PIPE?"],
+        "responses": [  "O PIPE tem três fases principais: Fase 1 - Pesquisa inicial, Fase 2 - Desenvolvimento de protótipos, e Fase 3 - Pré-comercialização. Cada fase tem requisitos e objetivos específicos, e o financiamento é liberado com base no progresso do projeto.",
+        "A Fase 1 busca desenvolver e testar uma inovação inicial. A Fase 2 envolve o desenvolvimento de um protótipo funcional. A Fase 3 prepara a inovação para ser comercializada no mercado."]
+      },
+      {
+        "tag": "financiamento",
+        "patterns": ["Qual é o valor do financiamento?",
+        "Quanto posso solicitar no PIPE?",
+        "Quais são os valores máximos de financiamento do programa?"],
+        "responses": [ "O valor do financiamento no PIPE pode variar de acordo com a fase do projeto e as necessidades de cada empresa ou pesquisador. Em média, o financiamento pode chegar até R$ 1 milhão, dependendo da fase e da complexidade do projeto.",
+        "Os valores de financiamento são determinados pelo tipo e estágio do projeto. Para cada fase do PIPE, existe um teto específico de financiamento."]
+      },
+      {
+        "tag": "valores_financiamento",
+        "patterns": ["Qual o valor do financiamento?", "Quanto posso receber pelo PIPE?"],
+        "responses": ["O financiamento depende da fase do PIPE. Na Fase 1, pode chegar a R$ 275 mil, enquanto na Fase 2, pode ser bem maior dependendo do projeto.", "Os valores variam conforme a fase do projeto. Você pode consultar os detalhes no edital vigente da FAPESP."]
+      },
+      {
+        "tag": "ajuda_erros",
+        "patterns":["Estou com um erro na submissão", "Não consigo enviar minha proposta", "Há algum problema com o meu projeto"],
+        "responses":["Caso você esteja enfrentando dificuldades, recomendo verificar se todos os documentos estão completos e seguir as instruções no portal. Se o problema persistir, você pode entrar em contato diretamente com o suporte da FAPESP.", "Se você encontrou um erro ou não conseguiu submeter sua proposta, recomendo que revise as informações e tente novamente. Se o erro continuar, entre em contato com o suporte técnico da FAPESP para obter assistência."]
+      },     
+      {
+        "tag": "submissao_projeto",
+        "patterns":[  "Como submeto meu projeto?",
+        "Onde faço a inscrição?",
+        "Onde envio minha proposta para o PIPE?"],
+        "responses":[ "Você pode submeter o seu projeto diretamente pelo site da FAPESP, na seção específica do PIPE. Preencha todos os campos exigidos e envie os documentos solicitados.",
+        "A submissão do projeto é feita online, no sistema da FAPESP. Basta acessar a plataforma e seguir as instruções para enviar sua proposta."]
+      },      
+      {
+        "tag": "ajuda_erros",
+        "patterns":["Estou com um erro na submissão", "Não consigo enviar minha proposta", "Há algum problema com o meu projeto"],
+        "responses":["Caso você esteja enfrentando dificuldades, recomendo verificar se todos os documentos estão completos e seguir as instruções no portal. Se o problema persistir, você pode entrar em contato diretamente com o suporte da FAPESP.", "Se você encontrou um erro ou não conseguiu submeter sua proposta, recomendo que revise as informações e tente novamente. Se o erro continuar, entre em contato com o suporte técnico da FAPESP para obter assistência."]
+      }
+    ]
+  }
+  
