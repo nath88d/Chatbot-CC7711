@@ -1,5 +1,3 @@
-# Chatbot---CC7711
-----
 <h2>GRUPO</h2>
   -> Ana Beatriz de Souza: 24.122.018-5 <br>
   -> Luísa Graça Barbado:  24.122.058-1 <br>
